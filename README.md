@@ -1,1 +1,6 @@
 # CommunicationProtocolsAndNetworksProject
+
+# PROIECT PROTOCOALE SI RETELE DE COMUNICATII
+
+Tema:
+Se considera o cladire comerciala cu 3 niveluri. Se va folosi adresa de retea 172.27.0.0/16 pentru reteaua intranet, adresa de retea 210.2.2.64/27 pentru DMZ si adresa de retea 210.2.2.32/27 pentru accesul in exterior. Se vor proiecta 4 VLAN-uri (unul pentru fiecare etaj si unul pentru traficul de management). Pentru configurarea VLAN-urilor se va folosi protocolul VTP. Prin cablarea si configurarea retelei se va asigura redundanta. Adresele hosturilor vor fi alocate dinamic folosind un singur server de DHCP aflat in VLAN-ul corespunzator primului etaj. Numarul minim de utilizatori deserviti de catre fiecare VLAN este 200. Serverele de HTTP, FTP, DNS si MAIL vor fi plasate in DMZ si vor avea adrese publice. Numele domeniului web va include numele studentului. Pentru asigurarea conectivitatii se vor configura rute statice. Accesul in exterior se va realiza folosind NAT pe routerul care controleaza DMZ, pe urmatorul interval de adrese publice: 210.2.2.35-210.2.2.62. Conectarea la ISP se va realiza printr-o interfata de tip Ethernet avand adresa 210.2.2.34/27. Adresa ISP-ului este 210.2.2.33/27. Reteaua Internet se va simula prin intermediul unui server si a unui calculator.
